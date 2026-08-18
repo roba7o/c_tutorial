@@ -1,0 +1,11 @@
+# Whitelist approach: compiled binaries have no extension, sources do.
+# Ignore everything, then allow source and text files back in.
+*
+!*/
+!*.c
+!*.h
+!Makefile
+!*.md
+!*.txt
+!LICENSE
+!.gitignore
